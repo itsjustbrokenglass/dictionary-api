@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Dictionary</h1>
+    <form id="form" onsubmit="event.preventDefault(); fetchApi();">
+        <p id="entry">Enter word:</p>
+        <input id="word" type="text">
+        <br>
+        <input id="button" type="submit" value="Lookup">
+    </form>
+    <script src="app.js"></script>
+
+    <div id="results">
+        <strong>
+            <h1 id="result"></h1>
+        </strong>
+        <p id="phonetic"></p>
+
+    </div>
+<footer>
+    <p>Made by Perri Cox | <a href="https://github.com/yourusername/your-repo" target="_blank">View on GitHub</a></p>
+</footer>
+
+
+</body>
+
+</html>

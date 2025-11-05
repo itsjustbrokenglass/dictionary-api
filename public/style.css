@@ -1,0 +1,90 @@
+* {
+    background-color: rgb(242, 203, 236);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#title {
+    color: rgb(122, 36, 86);
+    text-align: center;
+
+}
+
+#word {
+    border-radius: 5px;
+}
+
+#entry {
+    color: rgb(122, 36, 86);
+}
+
+#button {
+    color: white;
+    width: 60px;
+    background-color: rgb(228, 48, 48);
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+#results {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px auto;
+    color: rgb(122, 36, 86);
+}
+
+#results h2 {
+    color: rgb(122, 36, 86);
+    margin-bottom: 5px;
+}
+
+#results p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: rgb(122, 36, 86);
+    color: rgb(242, 203, 236);
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer * {
+    background-color: rgb(122, 36, 86); /* Override the universal selector */
+}
+
+footer a {
+    color: rgb(242, 203, 236);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgb(242, 203, 236);
+}
